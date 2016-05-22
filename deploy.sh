@@ -2,7 +2,11 @@
 
 set -e
 
-cd output
-
+HOST="ftp.koendercksen.com"
+UNAME="koendfc118"
 PASS=$(pass show Work/versio_directadmin)
-find . -type f -exec curl -u koendfc118:$PASS --ftp-create-dirs -T {} ftp://ftp.koendercksen.com/domains/koendercksen.com/public_html/{} \;
+REMOTE_PATH="/domains/koendercksen.com/public_html"
+LOCAL_PATH="output"
+
+cd $LOCAL_PATH
+find . -type f -exec curl -sS -u $UNAME:$PASS --ftp-create-dirs -T {} ftp://$HOST$REMOTE_PATH/{} \; -exec echo $(basename {}) \;
