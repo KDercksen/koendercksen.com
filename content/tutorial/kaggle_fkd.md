@@ -1,6 +1,6 @@
 Title: Kaggle: Facial Keypoints Detection
 Date: 22-05-2016
-Category: tutorial
+Category: tutorials
 
 This week I've been working on the Facial Keypoint Detection competition hosted
 by [Kaggle](http://kaggle.com). The objective of the competition is to predict
