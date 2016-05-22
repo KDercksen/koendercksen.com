@@ -8,6 +8,7 @@ SITEURL = 'http://blog.koendercksen.com'
 GITHUB_URL = 'http://github.com/KDercksen'
 
 PATH = 'content'
+STATIC_PATHS = ['files']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -25,9 +26,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
-SOCIAL = (('github', GITHUB_URL),
-          ('linkedin', 'http://linkedin.com/koen-dercksen-083a835b'),
-          ('stack-overflow', 'http://stackoverflow.com/users/2406587/koen-dercksen'),)
+SOCIAL = (
+    ('github', GITHUB_URL),
+    ('linkedin', 'http://linkedin.com/koen-dercksen-083a835b'),
+    ('stack-overflow', 'http://stackoverflow.com/users/2406587/koen-dercksen'),
+    ('email', 'mailto:mail@koendercksen.com', 'envelope'),
+)
 
 DEFAULT_PAGINATION = 10
 
