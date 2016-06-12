@@ -28,7 +28,7 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (
     ('github', GITHUB_URL),
-    ('linkedin', 'http://linkedin.com/koen-dercksen-083a835b'),
+    ('linkedin', 'http://linkedin.com/in/koen-dercksen-083a835b'),
     ('stack-overflow', 'http://stackoverflow.com/users/2406587/koen-dercksen'),
     ('email', 'mailto:mail@koendercksen.com', 'envelope'),
 )
