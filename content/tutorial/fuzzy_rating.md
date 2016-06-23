@@ -48,8 +48,8 @@ correct emotion (some index in the range 0-10).
 Now we can measure the performance on these two matrices using the following code:
 
     :::python
-    # Calculate performance by multiplying the label index by the classifier
-    # score on that index and dividing by number of samples.
+    # Calculate performance by summing probabilities of actual emotions
+    # reported by the classifier.
     score = 0
     for i in range(y.shape[0]):
         score += X[i, y[i].astype(int)]
