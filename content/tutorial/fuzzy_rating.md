@@ -52,7 +52,7 @@ Now we can measure the performance on these two matrices using the following cod
     # score on that index and dividing by number of samples.
     score = 0
     for i in range(y.shape[0]):
-        score += y[i] * X[i, y[i].astype(int)]
+        score += X[i, y[i].astype(int)]
 
     print('Performance: {:.2f}/{}'.format(score, 100))
 
