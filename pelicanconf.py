@@ -10,6 +10,8 @@ GITHUB_URL = 'http://github.com/KDercksen'
 PATH = 'content'
 STATIC_PATHS = ['files']
 
+READERS = {'html': None}
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
