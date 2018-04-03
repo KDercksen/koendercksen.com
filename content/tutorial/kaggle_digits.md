@@ -186,7 +186,7 @@ and loss curves:
     plt.ylabel('Score')
     plt.show()
 
-![Training visualization]({filename}/files/kaggle_digits_trainingplot.png)
+![Training visualization]({filename}/files/kaggle_digits_trainingplot.png.keep)
 
 This is exactly what we like to see! Training and validation accuracy increase,
 while both losses decrease. This indicates that little overfitting occurs and
