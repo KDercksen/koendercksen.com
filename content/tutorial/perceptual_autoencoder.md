@@ -209,8 +209,8 @@ created by the autoencoder.
         axes[1, i].axis('off')
     plt.show()
 
-![AE reconstructions with 10 latent features and regular MSE]({filename}/files/ae_10_reconstructions_mse.png.keep)
-![AE reconstructions with 10 latent features and feature MSE]({filename}/files/ae_10_reconstructions_feature.png.keep)
+![AE reconstructions with 10 latent features and regular MSE]({static}/files/ae_10_reconstructions_mse.png.keep)
+![AE reconstructions with 10 latent features and feature MSE]({static}/files/ae_10_reconstructions_feature.png.keep)
 
 The first image shows reconstructions by the regularly trained autoencoder; the
 second one shows reconstructions from the feature loss autoencoder (first row
