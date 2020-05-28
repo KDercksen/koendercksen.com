@@ -7,6 +7,7 @@ workshop](https://sites.google.com/view/siirh2020/) at
 [ECIR2020](https://ecir2020.org).
 
 Read the paper [here]({filename}/files/ECIR2020_SIIRH_workshop.pdf).
+See the presentation [here](https://www.youtube.com/watch?v=N461QEG9r3M).
 
 #### Abstract
 Nowadays, clinical patients are often free to access their own electronic
